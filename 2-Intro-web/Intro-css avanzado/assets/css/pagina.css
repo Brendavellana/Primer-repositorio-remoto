@@ -1,0 +1,84 @@
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6JHN6PAeoKTdeacII1-iLuwbhUjK4cAqbOw&usqp=CAU)
+
+
+}
+nav {
+     background-color: rgb(136, 135, 212);
+     height: 60px;
+
+}
+
+ul{
+     display:flex;
+     height: 60px;
+     align-items: center;
+     justify-content: flex-end;
+}
+
+
+
+
+li {
+     list-style: none;
+}
+
+a{     
+     text-decoration: none;
+     font-size: 20px;
+     margin: 5px 15px;
+     padding: 5px 20px;
+     border-radius: 5px;
+}
+
+a:hover {
+     color: brown;
+     background-color: blue;
+     transition: 5s;
+
+}
+
+.logo img {
+      width: 40px;
+
+}
+
+.contenedor {
+     max-width: 1500px; ;
+     margin: 0 auto;
+     display: flex;
+     align-items: center ;
+     justify-content: space-between;
+}
+
+           /*Baner*/
+
+
+.baner{
+     max-width: 1500px;
+     margin: 0 auto;
+     margin-top: 20px;
+    
+}
+.baner img{
+     width: 100%;
+     height: 300px;
+
+     object-fit: cover;
+     object-position: botton;
+
+}
+
+.baner img:hover{
+
+     transform: scale(1.05);
+     transition: 180ms;
+}
+
+
