@@ -26,4 +26,27 @@ let buscar = /[eo];
 
 console.log(buscar.test(texto01));
 
+//cuarto ejemplo
+//para buscar numeros
+let texto01 = "o = 9";
+let buscar =/[1 - 5]/;
+console.log(buscar.test(texto01));
+
+//ejemplo de busqueda
+
+let texto01 = "los numeros primos son 2 3 5 7 dentro de los 10 primeros numeros";
+let buscar =/\d{3}/;
+console.log(buscar.test(texto01));
+
+
+
+//ejemplo
+//para buscar correo electronico
+
+let texto01 = "usuario@survidi.com";
+let buscar = /[\w]+@{1}[\w]+\.[a-z]{2,3}/;
+
+console.log(buscar.test(texto01));
+
+
 
