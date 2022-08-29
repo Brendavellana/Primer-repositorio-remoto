@@ -1,0 +1,39 @@
+  <!-- comentarios dentro del cuerpo -->
+
+<div class="wrap">
+<div class="wrap-texto">
+  <h1>ENCUENTRA TU </h1>
+  <h2>ESTILO GAMER</h2>
+  <h3>__________________________________</h3>
+
+  <p>Se el chico o chica gamer mas cool del condado usando el
+  <br>jersey, hoddie o playera de tu equipo favorito de s-sport 🔥🔥</br>
+ </p>
+</div> 
+
+
+
+style:
+
+
+.wrap{
+color: white;
+text-align: left;
+font-family: 'Chakra Petch', sans-serif;
+width: 50%;
+
+}
+.wrap.tex{
+color: white;
+position: center;
+font-family: 'Chakra Petch', sans-serif;
+
+
+
+
+
+
+.carrusel{
+    background-image: linear-gradient(#C3083F, #130B1A 50%);
+    background-attachment: fixed; 
+    ;
